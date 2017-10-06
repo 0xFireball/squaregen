@@ -1,12 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
 
 namespace SquareGen.Demo
 {
-    internal class Program
+    class Program
     {
-        public static void Main(string[] args)
+        static void Main(string[] args)
         {
+            Console.WriteLine("Hello World!");
         }
     }
 }
