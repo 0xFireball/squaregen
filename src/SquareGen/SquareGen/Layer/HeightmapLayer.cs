@@ -22,7 +22,7 @@ namespace SquareGen.Layer
         {
             var v = _noiseSource.GetValue(x, y);
             // rescale to 0..1
-            v = (v + 1f / 2);
+            v = (v + 1f) / 2;
             return v;
         }
 
@@ -34,7 +34,7 @@ namespace SquareGen.Layer
             for (var i = 0; i < Settings.OctaveFactors.Length; i++)
             {
                 var j = Settings.OctaveFactors[i];
-                var k = (int) Math.Pow(j, 2);
+                var k = (int) Math.Pow(2, i);
                 v += NoiseFunction(x * Settings.Frequency * k,
                          y * Settings.Frequency * k) * j;
                 vd += j;

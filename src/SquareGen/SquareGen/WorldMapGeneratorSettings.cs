@@ -6,8 +6,8 @@ namespace SquareGen
     {
         public int Seed { get; set; } = 0;
         
-        public HeightmapLayerSettings ElevationLayerSettings { get; } = new HeightmapLayerSettings();
+        public HeightmapLayerSettings ElevationLayerSettings { get; set; } = new HeightmapLayerSettings();
         
-        public HeightmapLayerSettings MoistureLayerSettings { get; } = new HeightmapLayerSettings();
+        public HeightmapLayerSettings MoistureLayerSettings { get; set; } = new HeightmapLayerSettings();
     }
 }

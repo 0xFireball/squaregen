@@ -43,7 +43,7 @@ namespace SquareGen
             {
                 for (var j = y; j < h; j++)
                 {
-                    var t = TerrainBiome(elev[x, y], mois[x, y]);
+                    var t = TerrainBiome(elev[i, j], mois[i, j]);
                     region.Terrain[i, j] = t;
                 }
             }
