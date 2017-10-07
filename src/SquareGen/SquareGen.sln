@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SquareGen", "SquareGen\Squa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SquareGen.Demo", "SquareGen.Demo\SquareGen.Demo.csproj", "{D2E6D9E7-53D9-457F-8CF8-9A482F4A861B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{392E0809-9C50-4C21-8EAD-FE2B8355FF49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibNoise", "..\..\lib\LibNoise\src\LibNoise\LibNoise\LibNoise.csproj", "{12377D48-B51F-4DC8-8804-CE293A2F0412}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,8 +25,15 @@ Global
 		{D2E6D9E7-53D9-457F-8CF8-9A482F4A861B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2E6D9E7-53D9-457F-8CF8-9A482F4A861B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2E6D9E7-53D9-457F-8CF8-9A482F4A861B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12377D48-B51F-4DC8-8804-CE293A2F0412}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12377D48-B51F-4DC8-8804-CE293A2F0412}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12377D48-B51F-4DC8-8804-CE293A2F0412}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12377D48-B51F-4DC8-8804-CE293A2F0412}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{12377D48-B51F-4DC8-8804-CE293A2F0412} = {392E0809-9C50-4C21-8EAD-FE2B8355FF49}
 	EndGlobalSection
 EndGlobal

@@ -6,7 +6,9 @@ namespace SquareGen.Demo
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("SquareGen Demo");
+            
+            
         }
     }
 }
