@@ -28,7 +28,7 @@ namespace SquareGen.Demo
                 ElevationLayerSettings = new HeightmapLayerSettings
                 {
                     OctaveFactors = new[] {0.62f, 0.30f, 0.27f, 0.13f, 0.06f, 0.03f},
-                    Exponent = 1.6f
+                    Exponent = 2.8f
                 },
                 MoistureLayerSettings = new HeightmapLayerSettings
                 {
