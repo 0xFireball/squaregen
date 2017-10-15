@@ -1,3 +1,6 @@
 [submodule "lib/LibNoise"]
 	path = lib/LibNoise
 	url = https://github.com/0xFireball/LibNoise
+[submodule "lib/FFNez"]
+	path = lib/FFNez
+	url = https://github.com/0xFireball/FFNez.git
